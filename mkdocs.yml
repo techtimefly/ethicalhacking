@@ -1,0 +1,16 @@
+site_name: EthicalHacking
+theme:
+  name: material
+  features:
+    #- toc.follow
+    - toc.integrate
+    - navigation.top
+
+plugins: 
+ - blog
+ - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
