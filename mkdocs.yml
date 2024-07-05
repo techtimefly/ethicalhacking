@@ -18,6 +18,9 @@ plugins:
  - blog
  - tags
  - search
+ - git-committers:
+      repository: techtimefly/ethicalhacking
+      branch: main
 
 markdown_extensions:
   - admonition
