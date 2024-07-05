@@ -55,6 +55,8 @@ ping blue -c 4
 rtt min/avg/max/mdev = 251.086/288.358/331.494/29.719 ms
 ```
 
+![Made with VHS](https://vhs.charm.sh/vhs-4n2fXGRCtLKxxekL2Ihq22.gif)
+
 We can successfully ping the host.
 
 ---
@@ -82,6 +84,9 @@ PORT      STATE SERVICE      VERSION
 49156/tcp open  msrpc        Microsoft Windows RPC
 49157/tcp open  msrpc        Microsoft Windows RPC
 ```
+
+![Made with VHS](https://vhs.charm.sh/vhs-1dZTaSWX5IKGu1DOybBpGU.gif)
+
 We can see the open ports on the target machine.
 With this information we can answer the question below.
 
