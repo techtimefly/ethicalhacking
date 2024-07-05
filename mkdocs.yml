@@ -10,7 +10,6 @@ theme:
   features:
     - content.action.view
     - content.action.edit
-    #- toc.follow
     - toc.integrate
     - navigation.top
 
