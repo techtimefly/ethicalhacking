@@ -1,18 +1,18 @@
 ---
 date: 2024-07-04
 categories:
- - easy
+ - capture the flag
 
 tags:
  - samba
- - nmap
  - windows
  - tryhackme
+ - machines
 ---
 
-# TryHackMe Walkthrough - Blue
+# Blue Walkthrough
 
-In this lab you will learn how to use the **Eternal Blue** exploit in order to get access to a windows machine.
+In this lab you will learn how to use the **Eternal Blue** exploit in order to get access to a windows machine.  This machine is considered as an easy introduction for beginners.
 
 <!-- more -->
 
@@ -169,7 +169,7 @@ A quick google search will lead us to details about an OS level vulnerability na
 
     https://www.rapid7.com/db/modules/exploit/windows/smb/ms17_010_eternalblue/
 
-### verify exploit
+### Verify Exploit
 
 > Use an nmap script to test if **ms17-010** is exploitable on the target machine
 
@@ -209,7 +209,14 @@ Nmap done: 1 IP address (1 host up) scanned in 3.55 seconds
 
 Sure enough, nmap has confirmed that the target machine is vulnerable to this specific vulnerability. 
 
-We now have the answer for the question below.
+
+
+### Answers
+
+
+!!! Success "How many ports are open with a port number under 1000?"
+    3
+
 
 !!! success "What is this machine vulnerable to? (Answer in the form of: ms??-???, ex: ms08-067)"
 

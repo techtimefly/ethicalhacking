@@ -1,2 +1,7 @@
-# Walkthroughs
+---
+hide:
+  - footer
+---
+
+# Posts
 

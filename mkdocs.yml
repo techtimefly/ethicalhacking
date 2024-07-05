@@ -1,17 +1,37 @@
 site_name: EthicalHacking
+repo_url: https://github.com/techtimefly/ethicalhacking
+edit_uri: edit/main/docs/
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/techtimefly
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/techtimefly
+
 theme:
   name: material
+  custom_dir: overrides
   palette: 
     primary: black
     scheme: slate
     
   features:
-    #- toc.follow
-    - toc.integrate
+    - content.action.edit
+    - content.action.view
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes 
+    - navigation.instant
+    - navigation.sections
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
 
 plugins: 
- - blog
+ - blog:
+
  - tags
  - search
 
