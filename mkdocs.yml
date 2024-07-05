@@ -1,4 +1,5 @@
 site_name: EthicalHacking
+repo_url: https://github.com/techtimefly/ethicalhacking
 theme:
   name: material
   palette: 
