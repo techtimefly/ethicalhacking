@@ -1,6 +1,10 @@
 site_name: EthicalHacking
 theme:
   name: material
+  palette: 
+    primary: black
+    scheme: slate
+    
   features:
     #- toc.follow
     - toc.integrate
@@ -9,8 +13,7 @@ theme:
 plugins: 
  - blog
  - tags
+ - search
 
 markdown_extensions:
   - admonition
-  - pymdownx.tasklist:
-      custom_checkbox: true
