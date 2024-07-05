@@ -8,20 +8,22 @@ theme:
     scheme: slate
     
   features:
-    - content.action.view
     - content.action.edit
-    - toc.integrate
+    - content.action.view
+    - navigation.expand
+    - navigation.indexes 
+    - navigation.instant
+    - navigation.sections
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
 
 plugins: 
  - blog:
-    blog_dir: .
 
  - tags
  - search
- - git-committers:
-      repository: techtimefly/ethicalhacking
-      branch: main
 
 markdown_extensions:
   - admonition
