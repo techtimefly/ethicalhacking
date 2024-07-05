@@ -1,16 +1,14 @@
 ---
 date: 2024-07-04
 categories:
- - easy
+ - tryhackme
 
 tags:
  - samba
- - nmap
  - windows
- - tryhackme
 ---
 
-# TryHackMe Walkthrough - Blue
+# Blue
 
 In this lab you will learn how to use the **Eternal Blue** exploit in order to get access to a windows machine.
 
