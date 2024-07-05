@@ -14,7 +14,9 @@ theme:
     - navigation.top
 
 plugins: 
- - blog
+ - blog:
+    blog_dir: .
+
  - tags
  - search
  - git-committers:
