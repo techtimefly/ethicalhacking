@@ -1,5 +1,6 @@
 site_name: EthicalHacking
 repo_url: https://github.com/techtimefly/ethicalhacking
+edit_uri: edit/main/docs/
 theme:
   name: material
   palette: 
@@ -7,6 +8,8 @@ theme:
     scheme: slate
     
   features:
+    - content.action.view
+    - content.action.edit
     #- toc.follow
     - toc.integrate
     - navigation.top
